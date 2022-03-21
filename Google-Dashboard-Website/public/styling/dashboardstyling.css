@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(26, 28, 34);
+}
+
+.topnavbar {
+  background-color: rgb(18, 19, 20);
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.topbartext {
+  color: white;
+  padding-left: 2%;
+  text-decoration: none;
+}
+
+.topbarheading {
+  color: white;
+  padding-left: 18%;
+}
+
+.pageContainer {
+  margin: auto;
+  padding-top: 10%;
+  background-color: rgb(30, 31, 34);
+}
+
+iframe {
+  display: block;
+  padding-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
