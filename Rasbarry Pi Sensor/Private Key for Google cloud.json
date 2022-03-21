@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "innovation-factoy",
+  "private_key_id": "02dd0ef077f4f99035e12194c297a6983b3b7f71",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDFiMpgF09/OjmF\nqequkTo8O/x8FcEaF9pobansqfDgq1Fr9ajsujBYqjbm8JCZjCGBvDpg/I6Zr3HE\n8L3/ga9zWjjWTwwAt9B/shFlzRqnNS+FThhVFgtjQVushou8AlQao+KB+2RPV8Bp\nZp3LtKKyj0aypEp2lz0DnZ0GxDxTFrRnwvDHWNBpBwaZMD9rQRbryBaSoqfhb8Nn\nwnsGcch7yIl8k+LH4XlJIgxyHRtMvKKJWKavklMgWCkriuLe345tZz6nQVKYelsv\neGHYM5fzyyZtC4PPdU0v0RtINdyScpw6+38Rm4HGgPgr2xRcqN21+cnGdzDpQ248\n6msnoUdRAgMBAAECggEADo55h2JAX/pM8d4nJq0aEwVComxB+ifG1wo5yvBtCUlm\nqyODysoftPD6McOJjF8ouvRBgxMpeQbWRfKNtc37PW9pH9XcZxMkoLxhDtTyAV9o\nfJTYMzD4LtzKoiiaFIVBaGMqVnTNnBE14y6GM1RA5xKq3ZBA0oNroiATycNdRKwW\n9y+mTiJM0nUjpQ478s2hPIAywbP3loX3mPTwtZFbM/tJALVPtfDJE1JwlSowYFc2\nrzZt0dk4LKwiXA35JGqC8vp67EbHU++4Y/LgRAfqq1rVrlgJy/XXxcSbW+kRSyHb\n7fn6zMu6/m01eDWHuBfyDCbWpKk7LWj1Y6j1l0wp4QKBgQDtZxtLxnFsZfZMObSW\nux2mUQ1zDwz4DkV+gMleShocPNy7hYZ3T8m8SegCeeQ2p9cUg8nkg3JaENSj7fTf\n6Vz3zQtLINi+auTOUAaz3G+pXUjVGQYOgHY6LZcLX2vwTn7xazHLoCJV7M6cXuEM\naziat9W91WPeMn+yfPjoZCx3GQKBgQDVAijTDVQci0v8K+nBYzhm+gN75WX271y5\n10fmMMUlRUhbSJaAa5VJK3XxSf+dxX3YGorp6c90BHH/8WxIv9TxWXBWgMduKQXh\n6hxn1TgdKswnwsTcb1LXIXss2b0Oyg2IGbY0vZcvSZyGZYhOn0ShBeLOIonG7O5c\ns3EPZ8rw+QKBgQDZgTnU9v88HT7HH6eA4faMRn5YCFYNfqXU/RGBPcsmS+zAMdm8\nvnFJ/Tx/6EVaffPka8oxfuzp77miZ4WPEDOJJWdPccyiyTTQgSli6He1aC4ubzrJ\nVpD7RIG6fbZa+M/9SATbVt+ecdPqGFOAGUxHFF7UCgnxrbqpQS6bXAwRIQKBgQC/\nlhumCLz4l4mWnOC5IkceyAzOKTyW6CAcvzdaIc+QgEpeYGGNzDYQA9knV4lkHLfd\n4bHERppjHYRz0m+012XuVqWmCFpYCOnTksBN3AeGpHHP6W0rX63A9cpWQtm7LZ0S\nJx4tPcF3tNvmPfhlzvbpZePjyEjn9T9HfdZZJt/v8QKBgQCP9GjEQookG+xULUKM\nkiqtnMnyMZ3WqcUFIn+RQ4uvcXeOJaK+j8eEMhewlBnVV66pWxOQ+saojuECLxQC\nrWLjAQg4MkpTFcgsr6CCYyx0sml7SYTRSLu707JohZNtnA6zkGBaeKy11XWHvmuT\nByw2E4vYm9q0VEvrMkqbDGppOw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "innovation-factory-bigquery@innovation-factoy.iam.gserviceaccount.com",
+  "client_id": "100097013163953108309",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/innovation-factory-bigquery%40innovation-factoy.iam.gserviceaccount.com"
+}
