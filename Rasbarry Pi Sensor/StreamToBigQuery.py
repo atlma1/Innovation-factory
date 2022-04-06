@@ -1,9 +1,8 @@
-from google.cloud import bigquery_storage_v1
 from google.cloud import bigquery
 import os
 
 
-credentials_path = '/Rasbarry Pi Sensor/Private Key for Google cloud.json'
+credentials_path = 'Private Key for Google cloud.json'
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credentials_path
 
 Project = 'innovation-factory'

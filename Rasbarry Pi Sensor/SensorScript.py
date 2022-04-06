@@ -1,4 +1,4 @@
-from sense_hat import SenseHat
+from sense_emu import SenseHat
 from StreamToBigQuery import updateTable
 import time
 
