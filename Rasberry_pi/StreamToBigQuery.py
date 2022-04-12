@@ -2,7 +2,7 @@ from google.cloud import bigquery
 import os
 
 
-credentials_path = 'Private Key for Google cloud.json'
+credentials_path = 'Private_Key_Google_Cloud.json'
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credentials_path
 
 Project = 'innovation-factory'
@@ -11,21 +11,20 @@ Table ='innovation-factoy.Sense_Hat.test'
 
 def updateTable(tableId, temp, pressure, humidity):
     client = bigquery.Client()
-    table_id= tableId
+    table_id = tableId
     rows_to_insert = [
         {u'Temperature': temp, u'Pressure': pressure, u'Humidity': humidity}
     ]
 
     errors = client.insert_rows_json(table_id, rows_to_insert)
-    if errors == []:
+    if not errors:
         print('Rows have been added')
     else:
         print(f'Encountered errors while inserting rows: <errors>')
 
 
 
-
-updateTable(Table, 20, 322, 40)
+updateTable(Table, 60, 322, 40)
 
 
 
