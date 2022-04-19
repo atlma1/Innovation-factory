@@ -1,5 +1,5 @@
 from sense_hat import SenseHat
-from StreamToBigQuery import updateTable
+from update_bigquery import updateTable
 import time
 
 sense = SenseHat()

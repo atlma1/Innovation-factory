@@ -24,7 +24,6 @@ def updateTable(tableId, temp, pressure, humidity):
 
 
 
-##updateTable(Table, 60, 322, 40)
 
 
 
