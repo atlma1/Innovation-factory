@@ -4,6 +4,10 @@ import time
 import tkinter as tk
 from tkinter import *
 from tkinter import messagebox
+import os
+
+credentials_path = 'Private_Key_Google_Cloud.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credentials_path
 
 def guiInit():
     root = tk.Tk()
@@ -28,11 +32,7 @@ def guiInit():
             temperature = sense.get_temperature()
             pressure = sense.get_pressure()
             # adds to table
-            errors = updateTable(table, temperature, pressure, humidity, timeSince)
-            if not errors:
-                print('Rows have been added')
-            else:
-                print(f'Encountered errors while inserting rows: <errors>')
+            updateTable(table, temperature, pressure, humidity, timeSince)
             time.sleep(delay)
             timeSince += delay
 
