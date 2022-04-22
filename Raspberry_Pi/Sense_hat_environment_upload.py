@@ -1,4 +1,4 @@
-# from sense_hat import SenseHat
+from sense_hat import SenseHat
 from update_bigquery import updateTable
 import time
 import tkinter as tk
