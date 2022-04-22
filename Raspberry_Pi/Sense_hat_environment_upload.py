@@ -20,6 +20,7 @@ def guiInit():
 
     def envSense(delay, table):
         sense = SenseHat()
+        delay = int(delay)
         timeSince = 0
         while True:
             # checks the environment
